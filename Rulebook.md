@@ -44,60 +44,94 @@ In Bubble Singularity, you'll create exciting chain reactions by strategically p
 
 ---
 
-## **GAMEPLAY**
+## **YOUR TURN**
 
-Players take turns in clockwise order. On your turn, complete these two phases:
+On your turn, complete these steps in order:
 
-### **1. MOVE & PLACE**
+### **1. MOVE YOUR MARI**
 
-* Move your Mari 1-3 spaces orthogonally (not diagonally, unless you have an ability that allows it)
-* Place 1 Bubble Token from your supply on each space you move through (including your destination space, but not your starting space)
-* You cannot move through or end on a space containing another player
+* Choose to move 1, 2, or 3 spaces orthogonally (not diagonally).
+* Place 1 of your Bubble Tokens on each space you move through, including your destination.
+* You cannot move through or end on a space with another player.
 
-### **2. SPACE ACTION**
+**MOVEMENT TIP:** Consider both where you want to place bubbles and which action you want to perform when choosing your movement path.
 
-After moving, choose ONE of these actions based on where your Mari ended its movement:
+### **2. CHOOSE ONE ACTION**
 
-#### **Rotate & Push**
-* Rotate the Space Card where your Mari stands 90 degrees in either direction
-* Push all Bubbles on that space in the direction of the arrows
-* Each arrow must have the same number of bubbles (distributed as evenly as possible)
+Based on where your Mari ended its movement, choose ONE:
 
-#### **Gravity Pull**
-* Choose one direction (orthogonally adjacent)
-* Pull all Bubble(s) from that adjacent Space Card to your current Space Card
+#### **ROTATE & PUSH**
+* Rotate your current Space Card 90° in either direction
+* Then push ALL bubbles on this space following the arrows
+* Each arrow carries exactly one bubble (distribute as evenly as possible)
 
-*If a Space Card has a special icon (Singularity Node), it provides additional benefits when activated.*
+**OR**
 
-### **BUBBLE POP (if triggered)**
+#### **GRAVITY PULL**
+* Choose ONE adjacent Space Card
+* Pull ALL bubbles from that space to your current space
+* If this creates a group of 3+ bubbles, a Bubble Pop occurs
 
-When 3 or more Bubble Tokens of any color occupy the same space, a Bubble Pop occurs automatically:
+**STRATEGY TIP:** Rotate & Push is useful for triggering chain reactions across the board, while Gravity Pull is excellent for gathering bubbles to create pops on your current space.
 
-1. Each arrow on the Space Card allows one bubble to move in that direction
-2. You collect any excess bubbles (beyond the number of arrows)
-3. If bubbles move to a space that creates another group of 3+ bubbles, a Chain Reaction occurs
+---
 
-**EXAMPLE:** *A space with 2 arrows (north and east) containing 5 bubbles:*
-* *1 bubble moves north*
-* *1 bubble moves east*
-* *You collect the remaining 3 bubbles*
+## **BUBBLE POP**
+
+When 3 or more Bubble Tokens occupy the same space, a Bubble Pop occurs automatically:
+
+1. **Count the Arrows**: First, note how many arrows are on the Space Card where the pop occurs.
+2. **Move Bubbles**: One bubble moves along each arrow to adjacent spaces. 
+3. **Collect Excess**: The player who triggered the pop collects any remaining bubbles.
+
+**EXAMPLE:**
+
+```
+[Space Card with 2 arrows (North and East) contains 5 bubbles]
+
+BEFORE POP:
+- Space Card has 2 arrows (pointing North and East)
+- Space contains 5 bubbles (3 blue, 2 red)
+
+DURING POP:
+- 1 blue bubble moves North along first arrow
+- 1 red bubble moves East along second arrow
+- Player collects the 3 remaining bubbles (2 blue, 1 red)
+```
+
+**IMPORTANT:** If there are more arrows than bubbles, move bubbles along arrows in clockwise order starting from the north arrow until all bubbles are moved. If there are more bubbles than arrows, the active player chooses which bubbles move along which arrows.
 
 ---
 
 ## **CHAIN REACTIONS**
 
-If bubbles are pushed into a space that creates another group of 3+ bubbles, a Chain Reaction occurs. This continues until no more pops are possible.
+When a Bubble Pop causes bubbles to move to spaces where they create new groups of 3+ bubbles, a Chain Reaction occurs. This chain continues until no more pops are possible.
 
-**Chain Reaction Scoring:**
-* 1-chain: 1 point
-* 2-chain: 3 points
-* 3-chain: 6 points
-* 4+ chain: 10 points
+**CHAIN REACTION SCORING:**
+* 1-chain (single pop): 1 point
+* 2-chain (pop causes another pop): 3 points
+* 3-chain (two consecutive pops cause a third): 6 points
+* 4+ chain (three or more consecutive pops): 10 points + 1 Singularity Point marker
 
-**Chain Reaction Bonuses:**
-* 4+ chain reaction: Place a Singularity Point marker on your Player Card
+**EXAMPLE OF A 3-CHAIN REACTION:**
 
-**IMPORTANT:** The player who initiates a chain reaction is the one who scores points, even if the chain includes bubbles placed by other players.
+```
+1. You trigger a pop on Space A containing 4 bubbles.
+   - 2 bubbles move along arrows to Spaces B and C
+   - You collect the 2 excess bubbles
+
+2. The bubble that moved to Space B creates a group of 3 bubbles there.
+   - This triggers a second pop!
+   - Bubbles move along arrows, with one going to Space D
+
+3. The bubble that moved to Space D creates a group of 3 bubbles there.
+   - This triggers a third pop!
+   - No further pops occur, ending the chain
+
+RESULT: You've created a 3-chain reaction worth 6 points!
+```
+
+**IMPORTANT:** The player who initiated the first pop scores points for the entire chain reaction, even if it includes bubbles placed by other players.
 
 ---
 
@@ -106,7 +140,7 @@ If bubbles are pushed into a space that creates another group of 3+ bubbles, a C
 These special locations provide additional benefits:
 
 When a Bubble Pop occurs on a Singularity Node:
-* Draw 2 ability card from the decks, select one, discard the other.
+* Draw 2 ability cards from the decks, select one, discard the other.
 * Increase the total chain reaction count by 1 (e.g., a 2-chain scores as a 3-chain for 6 points)
 
 *Note: You can only have one ability card from each category. If you acquire a second card from the same category, you must choose which to keep.*
@@ -126,7 +160,7 @@ Ability cards come in 3 categories with 4 cards each:
 ### **Chain Dynamics (Reactions)**
 * **Bubble Fusion:** Your color bubbles only need 2 (instead of 3) to trigger a pop
 * **Cascade Control:** When triggering a pop, bubbles of your color can move along twice in one arrow
-* **Energy Harvest:** Collect 1 bubble from the bag every a chain reaction above length 2+
+* **Energy Harvest:** Collect 1 bubble from the bag every time a chain reaction above length 2+ occurs
 * **Reaction Amplifier:** Increase chain reaction length by 1 when scoring
 
 ### **Cosmic Influence (Special)**
@@ -134,17 +168,6 @@ Ability cards come in 3 categories with 4 cards each:
 * **Singularity Attractor:** Once per turn, move 1 node singularity two spaces toward your current space
 * **Node Affinity:** Chain reactions worth +2 points when adjacent to Singularity Nodes
 * **Bubble Director:** Once per turn, you may move 1 bubble of your color to any adjacent space
-
----
-
-## **STRATEGY TIPS FOR NEW PLAYERS**
-
-* **First Turns:** Move toward Singularity Nodes to acquire abilities and trigger chain reactions
-* **Plan Ahead:** Think about where bubbles will go after a pop to set up future chain reactions
-* **Watch Your Supply:** Having more bubbles gives you more options, so collect extras when possible
-* **Position Strategically:** End your turn where you can take advantage of the action you want next turn
-* **Target Singularity Nodes:** Pops on Nodes give you abilities and increased scores
-* **Bubble Ownership:** Pay attention to bubble colors - while any bubbles can pop together, collecting your color is advantageous
 
 ---
 
@@ -167,6 +190,17 @@ Ability cards come in 3 categories with 4 cards each:
 
 ---
 
+## **STRATEGY TIPS FOR NEW PLAYERS**
+
+* **First Turns:** Move toward Singularity Nodes to acquire abilities and trigger chain reactions
+* **Plan Ahead:** Think about where bubbles will go after a pop to set up future chain reactions
+* **Watch Your Supply:** Having more bubbles gives you more options, so collect extras when possible
+* **Position Strategically:** End your turn where you can take advantage of the action you want next turn
+* **Target Singularity Nodes:** Pops on Nodes give you abilities and increased scores
+* **Bubble Ownership:** Pay attention to bubble colors - while any bubbles can pop together, collecting your color is advantageous
+
+---
+
 ## **GAME END**
 
 The game ends immediately when:
@@ -178,9 +212,9 @@ If the game ends due to an empty bubble bag, the player with the most Singularit
 
 ---
 
-## **ADVANCED GAME**
+## **ADVANCED GAME MODULES**
 
-Once you've mastered the base game, try these advanced modules. You can add one module at a time or combine them for experienced players.
+Once you've mastered the base game, these advanced modules add new depth and strategic options. You can add one module at a time or combine them for experienced players.
 
 ### **Module 1: Space Station Network**
 
@@ -190,29 +224,34 @@ Once you've mastered the base game, try these advanced modules. You can add one 
 * Increase starting bubbles to 6 per player
 
 **Space Station Cards:**
+
+Each Space Station offers three benefits:
+* **Passive Effect:** Always active for anyone near the station
+* **Active Effect:** Available when you end your turn at the station
+* **Controller Bonus:** Special power for the player who controls the station
+
 1. **Research Station**
-   * **Passive Effect:** Chain reactions started adjacent to this station get +1 length
-   * **Active Effect:** When you end your turn here, draw 3 bubbles and keep 2
-   * **Controller Bonus:** When you end your turn here, look at all bubbles in the bag and take 3 of your choice
+   * **Passive:** Chain reactions started adjacent to this station get +1 length
+   * **Active:** When you end your turn here, draw 3 bubbles and keep 2
+   * **Controller:** When you end your turn here, look at all bubbles in the bag and take 3 of your choice
 
 2. **Transit Station**
-   * **Passive Effect:** Movement adjacent to this station costs 0 bubbles
-   * **Active Effect:** When you end your turn here, you may teleport to any space on the board
-   * **Controller Bonus:** When you end your turn here, move any bubble to any space on the board
+   * **Passive:** Movement adjacent to this station costs 0 bubbles
+   * **Active:** When you end your turn here, you may teleport to any space on the board
+   * **Controller:** When you end your turn here, move any bubble to any space on the board
 
 3. **Energy Station**
-   * **Passive Effect:** You need only 2 bubbles (any color) to trigger a pop adjacent to this station
-   * **Active Effect:** When you end your turn here, convert up to 3 bubbles on adjacent spaces to your color
-   * **Controller Bonus:** When you end your turn here, trigger a bubble pop with just 1 bubble of your color
+   * **Passive:** You need only 2 bubbles (any color) to trigger a pop adjacent to this station
+   * **Active:** When you end your turn here, convert up to 3 bubbles on adjacent spaces to your color
+   * **Controller:** When you end your turn here, trigger a bubble pop with just 1 bubble of your color
 
 4. **Defense Station**
-   * **Passive Effect:** Your bubbles adjacent to this station cannot be moved by other players' actions
-   * **Active Effect:** When you end your turn here, place 2 bubbles on any spaces on the board
-   * **Controller Bonus:** When you end your turn here, block another player's Action (they must choose a different action)
+   * **Passive:** Your bubbles adjacent to this station cannot be moved by other players' actions
+   * **Active:** When you end your turn here, place 2 bubbles on any spaces on the board
+   * **Controller:** When you end your turn here, block another player's Action (they must choose a different action)
 
 **Station Control:**
-* When a player triggers a chain reaction of length 3+ that includes a Space Station, they may place their Control token on it
-* If a player already controls that station, they retain control
+* When a player triggers a chain reaction of length 3+ that includes a Space Station, they place their Control token on it
 * Controlling multiple stations provides bonus points at game end:
   * 2 stations = 5 points
   * 3 stations = 12 points
@@ -224,35 +263,56 @@ Once you've mastered the base game, try these advanced modules. You can add one 
 * Expand to a 5×5 grid (25 Space Cards total)
 * Include the Station Space Cards
 * Place the Universe Space Card in the center
-* Position the 4 Singularity Nodes in four diagonal around the center
+* Position the 4 Singularity Nodes diagonally around the center
 * Add 4 Space Station cards at the corners of the grid
 * Increase starting bubbles to 7 per player
 
 **Universe Space Card:**
-* This special central card can use ANY trigger ability
+* This special central card can use ANY Active Effect of Space Station Cards
 * It is treated as both a Singularity Node AND a Space Station
 * Chain reactions that include the Universe Space Card award 1 additional Singularity Point marker
 
-**Card Transformation Effects:**
-* When playing with the 5×5 grid, add these transformation effects to certain cards:
-  1. **Flux Cards (4):** When a chain reaction passes through these spaces, the card rotates 90° clockwise
-  2. **Unstable Cards (4):** After any pop on these spaces, swap this card with any adjacent card
-  3. **Expansion Cards (4):** When a chain reaction passes through these spaces, the bubble move 2 spaces instead
-  
+**Special Card Effects:**
+When playing with the 5×5 grid, add these special cards for more dynamic gameplay:
+
+1. **Flux Cards (4)** 
+   * **Effect:** When a chain reaction passes through these spaces, the card rotates 90° clockwise
+   * **Strategy:** Use these cards to change the direction of future bubble movement
+
+2. **Unstable Cards (4)**
+   * **Effect:** After any pop on these spaces, swap this card with any adjacent card
+   * **Strategy:** These cards can dramatically reshape the board, creating new opportunities
+
+3. **Expansion Cards (4)**
+   * **Effect:** When a chain reaction passes through these spaces, bubbles move 2 spaces instead of 1
+   * **Strategy:** Use these to create longer chains or reach distant locations faster
+
 **Balance Adjustments:**
 * Chain reaction length requirements increase by 1 (5+ chain needed for a Singularity Point marker)
 * Maximum movement increases to 4 spaces
 * Players start with all 3 basic abilities (one from each category)
 * Game ends at 7 Singularity Point markers instead of 5
 
+**EXAMPLE OF PLAY (Advanced Game):**
+
+```
+Player 1 controls the Energy Station and has a Bubble Fusion ability:
+
+1. MOVE: They move 2 spaces to reach the Energy Station, placing bubbles along the way
+2. ACTION: They use the station's Active Effect to convert 3 nearby red bubbles to their blue color
+3. CONTROLLER BONUS: They use their controller bonus to trigger a pop with just 1 blue bubble
+4. CHAIN REACTION: This creates a 4-chain reaction that passes through the Universe Space Card
+5. SCORING: They score 10 points for the chain, PLUS 2 Singularity Point markers (1 for the chain, 1 for including the Universe Space Card)
+```
+
 ---
 
 ## **QUICK REFERENCE**
 
 ### **Turn Sequence**
-1. Move (1-3 spaces) & Place Bubbles
-2. Space Action (Rotate & Push OR Gravity Pull)
-3. Resolve any Bubble Pops
+1. Move your Mari (1-3 spaces) & place bubbles
+2. Choose one action (Rotate & Push OR Gravity Pull)
+3. Resolve any Bubble Pops and Chain Reactions
 
 ### **Bubble Pop**
 * Occurs when 3+ bubbles occupy the same space
